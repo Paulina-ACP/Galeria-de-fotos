@@ -1,11 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="favicon.png" type="xml/png" />
     <title>Galeria de Fotos</title>
-</head>
-<body>
-    
-</body>
+  </head>
+
+  <body>
+    <header class="main-header">
+      <h1>Galeria de Fotos</h1>
+    </header>
+
+    <div class="search-wrapper">
+      <div class="search-container">
+        <input
+          type="text"
+          id="searchInput"
+          class="search-input"
+          placeholder="Buscar fotos..."
+        />
+        <button class="search-btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <main>
+      <section class="gallery" id="gallery"></section>
+      <p id="noResults" class="hidden">Nenhuma foto encontrada</p>
+    </main>
+
+    <footer>
+      <p>© 2026 Galeria de Fotos. Desenvolvido por Paulina Costa. <br> Todos os direitos reservados.</p>
+    </footer>
+
+    <div id="imageViewer" class="image-viewer">
+      <button id="closeViewer" aria-label="Fechar imagem">✕</button>
+      <img id="viewerImage" alt="" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
 </html>
