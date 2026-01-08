@@ -7,25 +7,21 @@ O objetivo foi criar uma galeria de fotos responsiva, com foco em Mobile First, 
 Funcionalidades
 
 Layout responsivo (Mobile First)
-
 Exibição dinâmica das imagens
-
 Busca de fotos pelo nome
-
 Visualização da imagem em tela cheia ao clicar
-
 Botão para fechar e retornar à galeria
 
 
 Tecnologias Utilizadas
 
 HTML5
-
 CSS3
-
 JavaScript (puro)
 
 Como rodar a aplicação localmente
+
+
 Acesse pelo link: ttps://paulina-acp.github.io/Galeria-de-fotos/
 
 Desenvolvido por
